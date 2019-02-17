@@ -5,6 +5,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   selector: 'app-style',
   templateUrl: './style.component.html',
   encapsulation: ViewEncapsulation.ShadowDom
+  //https://scotch.io/tutorials/all-the-ways-to-add-css-to-angular-2-components
 })
 export class StyleComponent implements OnInit {
 
